@@ -1,27 +1,32 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SpaceCine</title>
-    <meta name = "author" content = "André de Oliveira Pereira">
-    <meta name = "description" content = "SpaceCine é uma página sobre cinema, desenvolvida no curso de LIMA do SENAI. O Objetivo é aprender a construir página web">
-    <meta name = "keywords" content = "HTML, CSS, JavaScript, cinema, filmes, SpaceCine">
+    <meta name="author" content="André de Oliveira Pereira">
+    <meta name="description"
+        content="SpaceCine é uma página sobre cinema, desenvolvida no curso de LIMA do SENAI. O Objetivo é aprender a construir página web">
+    <meta name="keywords" content="HTML, CSS, JavaScript, cinema, filmes, SpaceCine">
     <link rel="stylesheet" href="./src/styles/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
-    
+
     <!-- Cabeçalho -->
     <header>
 
         <!-- Grupo 1 -->
-         <img src="./src/assets/images/logo.svg" alt="Logo SpaceCine">
+        <img src="./src/assets/images/logo.svg" alt="Logo SpaceCine">
         <!-- Grupo 2 -->
-         <nav>
-            
+        <nav>
+
             <ul class="menu">
                 <li><a href="#">Início</a></li>
                 <li><a href="#">Em cartaz</a></li>
@@ -29,86 +34,106 @@
                 <li><a href="#">Destaques</a></li>
                 <li><a href="#">Avaliações</a></li>
             </ul>
-         </nav>
+        </nav>
         <!-- Grupo 3 -->
         <nav>
             <a href="#" class="btnLogin">Login</a>
         </nav>
 
 
-    
+
     </header>
 
     <!-- MAIN -->
     <main>
-    <h1 >Vingadores <span class="text-highlight">Ultimato</span></h1>
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966,</p>
-    <nav>
-        <a href="" class="btnPrimary">Comprar agora</a>
-        <a href="" class="btnSecondary">Ver mais</a>
-    </nav>
+        <h1>Vingadores <span class="text-highlight">Ultimato</span></h1>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry's standard dummy text ever since 1966,</p>
+        <nav>
+            <a href="" class="btnPrimary">Comprar agora</a>
+            <a href="" class="btnSecondary">Ver mais</a>
+        </nav>
     </main>
 
 
     <!-- SECTION -->
-     <section class="section-showing">
+    <section class="section-showing">
 
         <div class="showing-content">
-        <span>Agora no SpaceCine</span>
-        <h2>Em breve</h2>
+            <span>Agora no SpaceCine</span>
+            <h2>Filmes em Cartaz</h2>
         </div>
 
         <div class="showing-container-movies">
+            
+            
             <div class="card-movies">
-                <img src="src/assets/images/ParaTodosOsGarotosQueJaAmei-SpaceCine.svg" alt="Capa do Filme Para todos os garotos que já amei" Loading="lazy">
-                <h3>Para todos os garotos que já amei</h3>
+                <img src="src/assets/images/ParaTodosOsGarotosQueJaAmei-SpaceCine.svg"
+                    alt="Capa do Filme Para todos os garotos que já amei" Loading="lazy">
+                <h3>Para todos os garotos...</h3>
                 <div class="movies-details">
                     <span>Romance - 1h 40m</span>
                     <div class="movies-avaliation">
-                        <img src="src/assets/images/EstrelaRanking-SpaceCine.svg" alt="Estrela de ranking" Loading="lazy">
+                        <img src="src/assets/images/EstrelaRanking-SpaceCine.svg" alt="Estrela de ranking"
+                            Loading="lazy">
                         <span>4.9</span>
                     </div>
 
                 </div>
+            </div>
 
-                <img src="./src/assets/images/VelozesEFuriosos11-SpaceCine.svg" alt="Capa do Filme Velozes & Furiosos 11" Loading="lazy ">
+            <div class="card-movies">
+                <img src="./src/assets/images/VelozesEFuriosos11-SpaceCine.svg"
+                    alt="Capa do Filme Velozes & Furiosos 11" Loading="lazy ">
                 <h3>Velozes & Furiosos 11</h3>
                 <div class="movies-details">
                     <span>Ação - 2h 20m</span>
                     <div class="movies-avaliation">
-                        <img src="src/assets/images/EstrelaRanking-SpaceCine.svg" alt="Estrela de ranking" Loading="lazy">
+                        <img src="src/assets/images/EstrelaRanking-SpaceCine.svg" alt="Estrela de ranking"
+                            Loading="lazy">
                         <span>4.5</span>
                     </div>
                 </div>
-                
-                <img src="./src/assets/images/GenteGrande3-SpaceCine.svg" alt="Capa do Filme Gente Grande 3" Loading="lazy">
+            </div>
+
+            <div class="card-movies">
+                <img src="./src/assets/images/GenteGrande3-SpaceCine.svg" alt="Capa do Filme Gente Grande 3"
+                    Loading="lazy">
                 <h3>Gente Grande 3</h3>
                 <div class="movies-details">
                     <span>Comédia - 1h 50m</span>
                     <div class="movies-avaliation">
-                        <img src="src/assets/images/EstrelaRanking-SpaceCine.svg" alt="Estrela de ranking" Loading="lazy">
+                        <img src="src/assets/images/EstrelaRanking-SpaceCine.svg" alt="Estrela de ranking"
+                            Loading="lazy">
                         <span>5.0</span>
                     </div>
 
                 </div>
+            </div>
 
+            <div class="card-movies">
                 <img src="./src/assets/images/Avatar-SpaceCine.svg" alt="Capa do Filme Avatar" Loading="lazy">
                 <h3>Avatar</h3>
                 <div class="movies-details">
                     <span>Ficção Científica - 2h 40m</span>
                     <div class="movies-avaliation">
-                        <img src="src/assets/images/EstrelaRanking-SpaceCine.svg" alt="Estrela de ranking" Loading="lazy">
+                        <img src="src/assets/images/EstrelaRanking-SpaceCine.svg" alt="Estrela de ranking"
+                            Loading="lazy">
                         <span>4.9</span>
                     </div>
-
                 </div>
 
-                <img src="./src/assets/images/HomemAranha-SpaceCine.svg" alt="Capa do Filme Homem Aranha Um Novo Lar" Loading="lazy">
-                <h3>Homem Aranha Um Novo Lar</h3>
+            </div>
+
+            <div class="card-movies">
+                <img src="./src/assets/images/HomemAranha-SpaceCine.svg" alt="Capa do Filme Homem Aranha Um Novo..."
+                    Loading="lazy">
+                <h3>Homem Aranha Um Novo...</h3>
                 <div class="movies-details">
                     <span>Ação - 2h 15m</span>
                     <div class="movies-avaliation">
-                        <img src="src/assets/images/EstrelaRanking-SpaceCine.svg" alt="Estrela de ranking" Loading="lazy">
+                        <img src="src/assets/images/EstrelaRanking-SpaceCine.svg" alt="Estrela de ranking"
+                            Loading="lazy">
                         <span>5.0</span>
                     </div>
 
@@ -120,6 +145,7 @@
 
         </div>
 
-     </section>
+    </section>
 </body>
+
 </html>
