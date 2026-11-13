@@ -164,4 +164,54 @@ main p{
     font-weight: 400;
 }
 
+.section-differentials{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    padding: 60px 0px;
+    background-color: var(--color-background2);
+    padding: 45px;
+}
+.differentials-content, differentials-container-card{
+    width:1072px;
+   
+}
 
+.differentials-container-card{
+    display: flex;
+    gap: 18px;
+}
+
+.differentials-content > span{
+    color: var(--color-purple300);
+    font-family: var(--font-title);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+  
+}
+
+.differentials-content > h2{
+    color: var(--color-white);
+    font-family: var(--font-title);
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 20px;
+    
+}
+
+.differentials-card > h3{
+    color: var(--color-purple400);
+    font-family: var(--font-title);
+    font-size: 25px;
+    font-weight: 400;
+    
+}
+.differentials-card > p{
+    color: var(--color-white);
+    font-family: var(--font-body);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+}
